@@ -11,9 +11,18 @@ body{
   background-size: cover;
   color: #333;
 }
+@media screen and (min-width: 601px) {
+  div.content{
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.content {
+    font-size: 30px;
+  }
+}
 .content{
   padding-top: 4rem;
-  width: calc(100vw - 10);
   margin: 0 auto;
   text-align: center;
 }
